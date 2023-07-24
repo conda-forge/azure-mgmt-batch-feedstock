@@ -1,6 +1,6 @@
-{% set version = "17.0.0" %}
+{% set version = "17.1.0" %}
 {% set name = "azure-mgmt-batch" %}
-{% set sha256 = "8643385952eec318f8aa05ec63c61aef3bbbfefdfb80a74fd176dfd84aabb16a" %}
+{% set sha256 = "385bf920898dc2d5807865fbe45019f10cdfbef651c6dbfa4745a842525dbafb" %}
 
 package:
   name: {{ name|lower }}
