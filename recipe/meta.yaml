@@ -1,6 +1,6 @@
-{% set version = "17.0.0" %}
+{% set version = "17.3.0" %}
 {% set name = "azure-mgmt-batch" %}
-{% set sha256 = "8643385952eec318f8aa05ec63c61aef3bbbfefdfb80a74fd176dfd84aabb16a" %}
+{% set sha256 = "fc94881a6acdb8a9533f371b6f7b2d3eaea1789eb955014b24a908d6dfe75991" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
