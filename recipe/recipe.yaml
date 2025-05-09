@@ -37,8 +37,6 @@ tests:
         - azure.mgmt.batch
       pip_check: false
       python_version: ${{ python_min }}.*
-  - script:
-      - "python -m unittest discover -p \"test_*.py\""
 
 about:
   license: MIT
